@@ -2,6 +2,6 @@
 
 ## run alomng
 
-~~sh 
+~~ 
 pip install langchain
 ~~
