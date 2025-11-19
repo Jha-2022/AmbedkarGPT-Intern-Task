@@ -53,7 +53,7 @@ python main.py
 ```
 
 
-🏃‍♂️ Usage
+## 🏃‍♂️ Usage
 
 1. Ensure the ```speech.txt``` file is present in the root directory (included in this repo).
 
@@ -64,7 +64,7 @@ python main.py
 
 3. The system will initialize the vector store and LLM. Once ready, type your question when prompted.
 
-** Type ```exit``` or ```quit``` to close the application.
+  * Type ```exit``` or ```quit``` to close the application.
 
 Example Interaction <br>
 ```
@@ -84,7 +84,7 @@ Answer: According to the text, the real enemy is the belief in the shastras.
 
 * ```requirements.txt```: List of Python dependencies.
 
-README.md: Project documentation.
+* ```README.md:``` Project documentation.
 
 ## 🧩 Tech Stack
 
