@@ -32,13 +32,13 @@ cd AmbedkarGPT-Intern-Task
 
 2. Create a Virtual Environment (Optional but Recommended)
    
-# Windows
+### Windows
 ```
 python -m venv venv
 .\venv\Scripts\activate
 ```
 
-# macOS/Linux
+### macOS/Linux
 ```
 python3 -m venv venv
 source venv/bin/activate
@@ -52,10 +52,46 @@ python main.py
 
 ```
 
-## This System can perform
 
-1. Loading the provided text file (speech.txt).
-2. Spliting the text into manageable chunks.
-3. Creatting Embeddings and store them in a local vector store.
-4. Retrieving relevant chunks based on a user's question.
-5. Generating an answer by feeding the retrieved context and the question to an LLM.
+🏃‍♂️ Usage
+
+1. Ensure the ```speech.txt``` file is present in the root directory (included in this repo).
+
+2. Run the main script:
+```
+python main.py
+```
+
+3. The system will initialize the vector store and LLM. Once ready, type your question when prompted.
+
+* Type ```exit``` or ```quit``` to close the application.
+
+Example Interaction <br>
+```
+🤖 AmbedkarGPT Ready! (Type 'exit' to quit)
+========================================
+
+Your Question: What is the real enemy?
+
+Answer: According to the text, the real enemy is the belief in the shastras.
+```
+
+## 📂 Project Structure
+
+```main.py```: The core logic containing the LangChain RAG pipeline.
+
+```speech.txt```: The source text file containing the excerpt from "Annihilation of Caste".
+
+```requirements.txt```: List of Python dependencies.
+
+README.md: Project documentation.
+
+## 🧩 Tech Stack
+
+LangChain: Framework for LLM applications.
+
+ChromaDB: Vector database for retrieving context.
+
+HuggingFace Embeddings: For converting text to vectors (all-MiniLM-L6-v2).
+
+Ollama: Local LLM runner.
