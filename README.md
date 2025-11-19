@@ -17,7 +17,7 @@ Before running the Python code, you must have the following installed:
 * Ollama (for running the LLM locally)
 
 
-1. Setup Ollama
+1. Setup Ollama <br>
  Download and install Ollama from ollama.ai. Once installed, open your terminal and pull the Mistral model:
 ```
 ollama pull mistral
