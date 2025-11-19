@@ -18,7 +18,7 @@ Before running the Python code, you must have the following installed:
 
 
 1. Setup Ollama
-Download and install Ollama from ollama.ai. Once installed, open your terminal and pull the Mistral model:
+ Download and install Ollama from ollama.ai. Once installed, open your terminal and pull the Mistral model:
 ```
 ollama pull mistral
 ```
