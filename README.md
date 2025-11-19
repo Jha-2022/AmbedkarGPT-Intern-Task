@@ -6,20 +6,22 @@ It implements a Retrieval-Augmented Generation (RAG) pipeline that ingests a spe
 ## 🚀 Features
 * Document Loading: Ingests text from speech.txt.
 * Text Splitting: Chunks text for efficient processing.
-*Embeddings: Uses sentence-transformers/all-MiniLM-L6-v2 via HuggingFace.
-*Vector Store: Stores embeddings locally using ChromaDB.
-*LLM: Uses Ollama running Mistral 7B for answer generation.
-*Framework: Orchestrated using LangChain.
+* Embeddings: Uses sentence-transformers/all-MiniLM-L6-v2 via HuggingFace.
+* Vector Store: Stores embeddings locally using ChromaDB.
+* LLM: Uses Ollama running Mistral 7B for answer generation.
+* Framework: Orchestrated using LangChain.
+
 ## 🛠️ Prerequisites
 Before running the Python code, you must have the following installed:
-Python 3.8+
-Ollama (for running the LLM locally)
+* Python 3.8+
+* Ollama (for running the LLM locally)
 
 
 1. Setup Ollama
 Download and install Ollama from ollama.ai. Once installed, open your terminal and pull the Mistral model:
+```
 ollama pull mistral
-
+```
 
 ## 📦 Installation
 Clone the repository
