@@ -4,12 +4,12 @@ This repository contains the solution for Assignment 1: AI Intern Hiring at Kalp
 It implements a Retrieval-Augmented Generation (RAG) pipeline that ingests a speech by Dr. B.R. Ambedkar and answers user questions based solely on that context. The system runs entirely locally using open-source tools, requiring no API keys or cloud accounts.
 
 ## 🚀 Features
-Document Loading: Ingests text from speech.txt.
-Text Splitting: Chunks text for efficient processing.
-Embeddings: Uses sentence-transformers/all-MiniLM-L6-v2 via HuggingFace.
-Vector Store: Stores embeddings locally using ChromaDB.
-LLM: Uses Ollama running Mistral 7B for answer generation.
-Framework: Orchestrated using LangChain.
+* Document Loading: Ingests text from speech.txt.
+* Text Splitting: Chunks text for efficient processing.
+*Embeddings: Uses sentence-transformers/all-MiniLM-L6-v2 via HuggingFace.
+*Vector Store: Stores embeddings locally using ChromaDB.
+*LLM: Uses Ollama running Mistral 7B for answer generation.
+*Framework: Orchestrated using LangChain.
 ## 🛠️ Prerequisites
 Before running the Python code, you must have the following installed:
 Python 3.8+
