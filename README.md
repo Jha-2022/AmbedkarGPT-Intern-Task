@@ -78,20 +78,20 @@ Answer: According to the text, the real enemy is the belief in the shastras.
 
 ## 📂 Project Structure
 
-```main.py```: The core logic containing the LangChain RAG pipeline.
+* ```main.py```: The core logic containing the LangChain RAG pipeline.
 
-```speech.txt```: The source text file containing the excerpt from "Annihilation of Caste".
+* ```speech.txt```: The source text file containing the excerpt from "Annihilation of Caste".
 
-```requirements.txt```: List of Python dependencies.
+* ```requirements.txt```: List of Python dependencies.
 
 README.md: Project documentation.
 
 ## 🧩 Tech Stack
 
-LangChain: Framework for LLM applications.
+* **LangChain:** Framework for LLM applications.
 
-ChromaDB: Vector database for retrieving context.
+* **ChromaDB:** Vector database for retrieving context.
 
-HuggingFace Embeddings: For converting text to vectors (all-MiniLM-L6-v2).
+* **HuggingFace Embeddings:** For converting text to vectors (all-MiniLM-L6-v2).
 
-Ollama: Local LLM runner.
+* **Ollama:** Local LLM runner.
