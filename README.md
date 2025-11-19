@@ -1,7 +1,9 @@
 # AmbedkarGPT-Intern-Task
 
-## run alomng
+## run along
 
 ```sh 
-pip install langchain
+pip install -r requirements.txt
+python main.py
+
 ```
