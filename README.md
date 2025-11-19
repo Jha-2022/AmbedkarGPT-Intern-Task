@@ -64,7 +64,7 @@ python main.py
 
 3. The system will initialize the vector store and LLM. Once ready, type your question when prompted.
 
-* Type ```exit``` or ```quit``` to close the application.
+** Type ```exit``` or ```quit``` to close the application.
 
 Example Interaction <br>
 ```
