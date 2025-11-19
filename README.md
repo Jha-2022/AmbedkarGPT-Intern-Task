@@ -26,11 +26,12 @@ ollama pull mistral
 ## 📦 Installation
 1. Clone the repository
 ```
-git clone [https://github.com/YOUR_USERNAME/AmbedkarGPT-Intern-Task.git](https://github.com/YOUR_USERNAME/AmbedkarGPT-Intern-Task.git)
+git clone https://github.com/Jha-2022/AmbedkarGPT-Intern-Task.git
 cd AmbedkarGPT-Intern-Task
 ```
 
 2. Create a Virtual Environment (Optional but Recommended)
+   
 # Windows
 ```
 python -m venv venv
@@ -50,6 +51,7 @@ pip install -r requirements.txt
 python main.py
 
 ```
+
 ## This System can perform
 
 1. Loading the provided text file (speech.txt).
