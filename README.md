@@ -24,27 +24,26 @@ ollama pull mistral
 ```
 
 ## 📦 Installation
-Clone the repository
+1. Clone the repository
+```
 git clone [https://github.com/YOUR_USERNAME/AmbedkarGPT-Intern-Task.git](https://github.com/YOUR_USERNAME/AmbedkarGPT-Intern-Task.git)
 cd AmbedkarGPT-Intern-Task
+```
 
-
-Create a Virtual Environment (Optional but Recommended)
+2. Create a Virtual Environment (Optional but Recommended)
 # Windows
+```
 python -m venv venv
 .\venv\Scripts\activate
-
+```
 
 # macOS/Linux
+```
 python3 -m venv venv
 source venv/bin/activate
-
+```
 
 Install Dependencies
-pip install -r requirements.txt
-
-
-
 
 ```sh 
 pip install -r requirements.txt
